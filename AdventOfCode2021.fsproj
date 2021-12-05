@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Day1PuzzleInput.txt" />
+    <Compile Include="Day1Part1.fs" />
+    <Compile Include="Day1Part2.fs" />
+    <Compile Include="AdventAnswers.fs" />
+  </ItemGroup>
+</Project>
