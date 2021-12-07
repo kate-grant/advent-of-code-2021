@@ -5,8 +5,10 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="Day1PuzzleInput.txt" />
+    <None Include="Day2PuzzleInput.txt" />
     <Compile Include="Day1Part1.fs" />
     <Compile Include="Day1Part2.fs" />
+    <Compile Include="Day2Part1.fs" />
     <Compile Include="AdventAnswers.fs" />
   </ItemGroup>
 </Project>

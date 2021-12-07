@@ -2,6 +2,7 @@
 open System.IO
 open Day1.Part1
 open Day1.Part2
+open Day2.Part1
 
 [<EntryPoint>]
 let main argv =
@@ -15,5 +16,11 @@ let main argv =
     let D1P2Solution = Day1.Part2.increaseTotaller sonarData Day1.Part2.yIsGreater;
     printfn "%d is the solution" D1P2Solution.increaseCount
     printfn "-------------------------------------------"
-    
-    0 // return an integer exit code
+
+    printfn "Day2"
+    let subMovementData = dataReaderString "Day2PuzzleInput.txt" in
+    printfn "Day 2 Data: %A" subMovementData;
+    printfn "Part 1:"
+    let D2P1Solution = Day2.Part1.mvmtTotaller subMovementData Day2.Part1.mvmtParser;
+    printfn "%d is the solution" D2P1Solution;
+        0 // return an integer exit code
