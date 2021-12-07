@@ -9,6 +9,7 @@
     <Compile Include="Day1Part1.fs" />
     <Compile Include="Day1Part2.fs" />
     <Compile Include="Day2Part1.fs" />
+    <Compile Include="Day2Part2.fs" />
     <Compile Include="AdventAnswers.fs" />
   </ItemGroup>
 </Project>

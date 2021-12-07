@@ -3,6 +3,7 @@ open System.IO
 open Day1.Part1
 open Day1.Part2
 open Day2.Part1
+open Day2.Part2
 
 [<EntryPoint>]
 let main argv =
@@ -23,4 +24,7 @@ let main argv =
     printfn "Part 1:"
     let D2P1Solution = Day2.Part1.mvmtTotaller subMovementData Day2.Part1.mvmtParser;
     printfn "%d is the solution" D2P1Solution;
+    printfn "Part 2:"
+    let D2P2Solution = Day2.Part2.mvmtTotaller subMovementData Day2.Part2.mvmtParser;
+    printfn "%d is the solution" D2P2Solution;
         0 // return an integer exit code
